@@ -3,7 +3,7 @@ package gestortareasengrupo;
 import java.util.ArrayList;
 
 /**
- *
+ * Clase que almacena y gestiona tareas gracias a un ArrayList.
  * @author Jonan Vega, Andrew Guerra
  */
 public class GestorTareas {

@@ -1,8 +1,15 @@
 package gestortareasengrupo;
 import java.util.Scanner;
 
-
+/**
+ * Clase que permite gestionar tareas de manera interactiva.
+ * @author Jonán Vega, Andrew Guerra
+ */
 public class main {
+    /**
+     * Contiene un menú interactivo para gestionar las tareas.
+     * @param args  Argumentos de líneas de comandos. (No se usan en esta aplicación)
+     */
     public static void main(String[] args) {
        Scanner sc = new Scanner(System.in, "UTF-8");
         GestorTareas gestor = new GestorTareas();

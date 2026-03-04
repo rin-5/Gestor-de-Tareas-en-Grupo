@@ -1,7 +1,7 @@
 package gestortareasengrupo;
 
 /**
- * Clase que contiene información sobre una tarea.
+ * Clase que contiene la información para crear una tarea.
  * @author Jonan Vega, Andrew Guerra 
  * @version 0.1
  * @since 2026
