@@ -1,12 +1,12 @@
 package gestortareasengrupo;
 
 /**
- * Clase que contiene información sobre una tarea.
- * @author Jonan Vega
+ * Clase que contiene la información para crear una tarea.
+ * @author Jonan Vega, Andrew Guerra 
  * @version 0.1
  * @since 2026
  */
-public class Tarea {
+public class Tarea { 
     private String descripcion;
     private boolean completada;
 
