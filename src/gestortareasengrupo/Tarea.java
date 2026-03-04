@@ -6,7 +6,7 @@ package gestortareasengrupo;
  * @version 0.1
  * @since 2026
  */
-public class Tarea {
+public class Tarea { 
     private String descripcion;
     private boolean completada;
 
