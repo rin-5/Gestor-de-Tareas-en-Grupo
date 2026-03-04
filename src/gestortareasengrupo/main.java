@@ -1,10 +1,10 @@
 package gestortareasengrupo;
-
 import java.util.Scanner;
+
 
 public class main {
     public static void main(String[] args) {
-     Scanner sc = new Scanner(System.in, "UTF-8");
+       Scanner sc = new Scanner(System.in, "UTF-8");
         GestorTareas gestor = new GestorTareas();
         
         int option;
@@ -26,6 +26,10 @@ public class main {
                     gestor.añadirTarea(desc);
                     break;
                     
+                case 2:
+                    gestor.MostrarTareas();
+                    break;
+                    
                 case 0:
                     System.out.println("Saliendo...");
                     break;
@@ -35,5 +39,4 @@ public class main {
             
         }while (option != 0);   
     }
-    
 }

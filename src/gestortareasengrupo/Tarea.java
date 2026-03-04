@@ -2,7 +2,7 @@ package gestortareasengrupo;
 
 /**
  * Clase que contiene información sobre una tarea.
- * @author Jonan Vega
+ * @author Jonan Vega, Andrew Guerra 
  * @version 0.1
  * @since 2026
  */

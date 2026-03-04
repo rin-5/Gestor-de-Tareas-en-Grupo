@@ -18,5 +18,19 @@ public class GestorTareas {
         tareas.add(new Tarea(descripcion,false));
     }
     
-    
+    /**
+     * Método que muestra las tareas añadidas. En el caso de que no hayan tareas en la lista, dice que no hay tareas pendientes.
+     */
+    public void MostrarTareas() {
+        if (tareas.isEmpty()) {
+            System.out.println("No hay tareas pendientes.");
+        } else {
+            for (int i = 0; i < tareas.size(); i++) {
+                System.out.println((i + 1) + ". "
+                        + tareas.get(i));
+
+            } 
+        }
+
+    }
 }
